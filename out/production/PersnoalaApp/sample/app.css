@@ -1,0 +1,16 @@
+#mainPanel{
+    -fx-background-image: url("Pictures/Walppaper1.jpg");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-size: cover;
+    -fx-opacity: 0.9;
+}
+#avatar{
+    -fx-background-image: url("Pictures/myAvatar.jpg");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-size: cover;
+    -fx-opacity: 0.9;
+}
