@@ -4,9 +4,9 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PersnoalaApp/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersnoalaApp/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PersnoalaApp/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersnoalaApp/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PersnoalaApp/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PersnoalaApp/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
       <workItem from="1585939647950" duration="309000" />
       <workItem from="1585939992046" duration="662000" />
       <workItem from="1585940685091" duration="1027000" />
-      <workItem from="1585941735795" duration="3214000" />
+      <workItem from="1585941735795" duration="4523000" />
     </task>
     <servers />
   </component>
@@ -219,22 +219,22 @@
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
     <state x="1747" y="143" key="FileChooserDialogImpl/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585939944460" />
-    <state width="1320" height="44" key="GridCell.Tab.0.bottom" timestamp="1585946248866">
+    <state width="1320" height="212" key="GridCell.Tab.0.bottom" timestamp="1585947517283">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="44" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585946248866" />
-    <state width="1320" height="44" key="GridCell.Tab.0.center" timestamp="1585946248866">
+    <state width="1320" height="212" key="GridCell.Tab.0.bottom/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585947517283" />
+    <state width="1320" height="212" key="GridCell.Tab.0.center" timestamp="1585947517283">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="44" key="GridCell.Tab.0.center/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585946248866" />
-    <state width="1320" height="44" key="GridCell.Tab.0.left" timestamp="1585946248866">
+    <state width="1320" height="212" key="GridCell.Tab.0.center/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585947517283" />
+    <state width="1320" height="212" key="GridCell.Tab.0.left" timestamp="1585947517283">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="44" key="GridCell.Tab.0.left/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585946248866" />
-    <state width="1320" height="44" key="GridCell.Tab.0.right" timestamp="1585946248866">
+    <state width="1320" height="212" key="GridCell.Tab.0.left/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585947517283" />
+    <state width="1320" height="212" key="GridCell.Tab.0.right" timestamp="1585947517283">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="44" key="GridCell.Tab.0.right/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585946248866" />
+    <state width="1320" height="212" key="GridCell.Tab.0.right/1280.0.1366.768/0.0.1280.1024@1280.0.1366.768" timestamp="1585947517283" />
     <state width="1320" height="232" key="GridCell.Tab.1.bottom" timestamp="1585939611345">
       <screen x="1280" y="0" width="1366" height="768" />
     </state>
