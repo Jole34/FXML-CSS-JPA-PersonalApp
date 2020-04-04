@@ -2,6 +2,7 @@ package sample;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -21,6 +22,7 @@ public class Controller {
         String passtext = pass.getText();
         String logname = log.getText();
         Stage st = (Stage) pass.getScene().getWindow();
+        Stage st2 = Main.stage2;
         Alert a = new Alert(Alert.AlertType.ERROR);
 
         a.setContentText("Неисправно корисничко име или шифра ");
@@ -31,6 +33,7 @@ public class Controller {
             a.setHeaderText("Ако ниси Јован стоп!");
             a.close();
             st.close();
+            st2.show();
         }
         a.show();
 

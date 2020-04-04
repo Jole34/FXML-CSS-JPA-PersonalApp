@@ -22,3 +22,32 @@
     -fx-background-size: cover;
     -fx-opacity: 0.9;
 }
+#firstS{
+    -fx-background-image: url("Pictures/firstS.jpg");
+    -fx-background-position: center center;
+   -fx-background-size: 70%;
+}
+#firstBS{
+    -fx-background-color: dimgrey;
+    -fx-text-fill: aqua;
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+#secondBS{
+    -fx-background-color: dimgrey;
+    -fx-text-fill: aqua;
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+#thirdBS{
+    -fx-background-color: dimgrey;
+    -fx-text-fill: aqua;
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+#forthBS{
+    -fx-background-color: dimgrey;
+    -fx-text-fill: aqua;
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
