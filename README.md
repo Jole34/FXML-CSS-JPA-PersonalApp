@@ -4,4 +4,4 @@ App for students
 **Using**
 *Reading courses*
 *Working with courses*
-**In progress*
+**In progress**
