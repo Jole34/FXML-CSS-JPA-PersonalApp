@@ -1,12 +1,15 @@
 package sample;
 
+import db.CRUD;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
+import model.Ispit;
+
 import java.util.ArrayList;
+import java.util.Observable;
 
 public class Controller {
 
@@ -14,6 +17,10 @@ public class Controller {
     private PasswordField pass;
     @FXML
     private TextField log;
+    @FXML
+    private Button secondBS;
+
+    private CRUD db = new CRUD();
 
     int br =0;
 
@@ -29,14 +36,26 @@ public class Controller {
         a.setTitle("Грешка!");
         a.setHeaderText("Покушај број: "+br+"!");
 
-        if (br ==3){
-            a.setHeaderText("Ако ниси Јован стоп!");
-            a.close();
+        if (!db.checkLogin(logname, passtext)){
+            a.show();
+            if (br ==3){
+                a.setHeaderText("Ако ниси Јован стоп!");
+                a.close();
+            }
+
+        }else {
             st.close();
             st2.show();
         }
-        a.show();
-
         return null;
+    }
+
+    public void fakultetData(){
+
+        Stage st2 = Main.stage3;
+        Stage st = Main.stage2;
+
+        st.close();
+        st2.show();
     }
 }

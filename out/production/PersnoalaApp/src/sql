@@ -1,0 +1,111 @@
+CREATE TABLE IF NOT EXISTS User (id bigint auto_increment NOT NULL PRIMAR
+Y KEY, korisnicko  VARCHAR(255),  lozinka VARCHAR(255));
+
+CREATE TABLE IF NOT EXISTS Ispit (id bigint auto_increment NOT NULL PRIMARY KEY, naziv VARCHAR(255),  ocena int(25), espb int(25));
+
+INSERT INTO User (korisnicko, lozinka)  VALUES ('Јоле34', 'главоњићјова21.');
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Напредно веб програмирање', 10, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Рачунарске мреже', 10, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Моделирање информационих система', 10, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Веб програмирање', 9, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Софтверско инжењерство', 8, 8);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Оперативни системи 1', 8, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Развој информационих система', 8, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Системско програмирање', 10, 4);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Социјалне мреже', 7, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('ООП2', 8, 8);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Базе података 2', 8, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Организација рачунара', 9, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Аутомати и алгоритми', 6, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('ООП1', 8, 8);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('СПА2', 6, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Базе података 1', 7, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Пајтон', 10, 5);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('СПА1', 10, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Увод у електронско пословање', 9, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Дискретне структуре 2', 6, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Дискретне структуре 1', 7, 7);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Веб дизајн', 10, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Увод у програмирање', 9, 8);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Анализа', 6, 8);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Вештине комуникација', 9, 6);
+
+INSERT INTO Ispit (naziv, ocena, espb)
+VALUES ('Енглески', 8, 4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="panelD" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller3">
+   <children>
+      <Button layoutX="128.0" layoutY="200.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="155.0" text="Додај предмет" onAction="#savePredmet" />
+      <TextField fx:id="nazivT" layoutX="163.0" layoutY="63.0" prefHeight="26.0" prefWidth="198.0" />
+      <TextField fx:id="ocenaTT" layoutX="163.0" layoutY="103.0" prefHeight="26.0" prefWidth="198.0" />
+      <TextField fx:id="espbTT" layoutX="163.0" layoutY="145.0" prefHeight="26.0" prefWidth="198.0" />
+      <Label fx:id="ta" layoutX="6.0" layoutY="59.0" prefHeight="35.0" prefWidth="132.0" text="Назив предмета" />
+      <Label fx:id="tb" layoutX="6.0" layoutY="96.0" prefHeight="35.0" prefWidth="124.0" text="Оцена" />
+      <Label fx:id="tc" layoutX="6.0" layoutY="147.0" prefHeight="26.0" prefWidth="116.0" text="ЕСПБ" />
+   </children>
+</Pane>

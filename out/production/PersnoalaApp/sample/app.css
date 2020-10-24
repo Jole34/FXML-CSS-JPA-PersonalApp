@@ -22,6 +22,15 @@
     -fx-background-size: cover;
     -fx-opacity: 0.9;
 }
+
+#thirdPanel{
+    -fx-background-image: url("Pictures/Walppaper1.jpg");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-size: cover;
+    -fx-opacity: 0.9;
+}
 #firstS{
     -fx-background-image: url("Pictures/firstS.jpg");
     -fx-background-position: center center;
@@ -50,4 +59,34 @@
     -fx-text-fill: aqua;
     -fx-font-size: 14px;
     -fx-font-weight: bolder;
+}
+#a{
+    -fx-background-color: white;
+}
+#b{
+    -fx-background-color: white;
+}
+#c{
+    -fx-background-color: white;
+}
+#panelD{
+    -fx-max-width: 300px;
+    -fx-background-image: url("Pictures/Walppaper1.jpg");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-size: cover;
+    -fx-opacity: 0.9;
+}
+#ta{
+    -fx-text-fill: aqua;
+
+}
+#tb{
+    -fx-text-fill: aqua;
+
+}
+#tc{
+    -fx-text-fill: aqua;
+
 }

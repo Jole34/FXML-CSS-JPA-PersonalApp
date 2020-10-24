@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="thirdPanel" prefHeight="367.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+   <children>
+      <TextField fx:id="prosekT" layoutX="22.0" layoutY="320.0" />
+      <TextField fx:id="bodovi" layoutX="241.0" layoutY="320.0" prefHeight="26.0" prefWidth="296.0" />
+      <TableView fx:id="listaIspita" layoutX="22.0" layoutY="14.0" prefHeight="286.0" prefWidth="569.0" />
+      <Button layoutX="635.0" layoutY="26.0" mnemonicParsing="false" onAction="#goBack" prefHeight="26.0" prefWidth="121.0" text="Назад" />
+      <Button layoutX="609.0" layoutY="310.0" mnemonicParsing="false" onAction="#dodaj" prefHeight="46.0" prefWidth="160.0" text="Додај нови предмет" />
+      <Button layoutX="635.0" layoutY="66.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="121.0" text="Обриши испит" onAction="#delete"/>
+   </children>
+</Pane>
